@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KFC</string>
+    <string name="txt1">Select Temperature Converter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dic">Enter degrees in celsius:</string>
+    <string name="dif">Degrees in Fahrenheit:</string>
+    <string name="dik">Degrees in Kelvin:</string>
+    <string name="ctof">celsiustofahrenheit</string>
+    <string name="developer">Developed by:Suvarnalaxmi Lambture</string>
+</resources>

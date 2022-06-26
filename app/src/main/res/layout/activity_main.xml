@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/dark_grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt1"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:fontFamily="Arial"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cf"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/ctof"
+            android:onClick="ctof"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/cf" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ck"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ck"
+            android:layout_marginLeft="10dp"
+            android:onClick="ctok"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fc"
+        android:layout_marginRight="10dp"
+        android:onClick="ftoc"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fk"
+        android:layout_marginLeft="10dp"
+        android:onClick="ftok"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/kc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kc"
+        android:layout_marginRight="10dp"
+        android:onClick="ktoc"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/kf"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kf"
+        android:layout_marginLeft="10dp"
+        android:onClick="ktof"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/developer"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-light"
+       />
+
+</LinearLayout>
+</ScrollView>

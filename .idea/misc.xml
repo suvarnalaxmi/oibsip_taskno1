@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/drawable/cursor_color.xml" value="0.1" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/layout/fragment_cffrag.xml" value="0.1" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/layout/fragment_ckfrag.xml" value="0.10404624277456648" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/layout/fragment_fcfrag.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/layout/fragment_fkfrag.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/layout/fragment_kcfrag.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/layout/fragment_kffrag.xml" value="0.1" />
+        <entry key="..\:/Users/suvar/AndroidStudioProjects/KFC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK" />
+</project>

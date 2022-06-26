@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt1">Select Temperature Converter</string>
+    <string name="dik">Degrees in Kelvin:</string>
+    <string name="ctof">celsiustofahrenheit</string>
+    <string name="developer">Developed by:Suvarnalaxmi Lambture</string>
+</resources>
